@@ -36,13 +36,13 @@ function compareNumbers(num1, num2) {
 
 function checkWhetherEVenOrOdd(num) {
   if (num === 0){
-    return `Out of range`
+    return `${num} Cannot be evaluated.`
   }
     else if (num % 2 === 0){
-      return `${num} is an even number`;
+      return `${num} is an even number.`;
     }
-    else if (num % 2 === 1 ) {
-      return `${num} is an odd number`;
+    else{
+      return `${num} is an odd number.`;
     }
     
   
