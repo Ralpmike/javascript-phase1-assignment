@@ -44,8 +44,6 @@ function checkWhetherEVenOrOdd(num) {
     else{
       return `${num} is an odd number.`;
     }
-    
-  
 }
 
 console.log(checkWhetherEVenOrOdd(0))

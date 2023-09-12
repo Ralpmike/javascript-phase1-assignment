@@ -21,10 +21,10 @@ console.log(userDetails1);
 const user = {
   name: "Erine",
   age: 16,
-  grnder: "female",
+  gender: "female",
   incrementAge() {
-    this.age++
-    return this.age
+    this.age++;
+    return this.age;
   }
 }
 
